@@ -10,6 +10,6 @@ conn.sendFile(m.chat, x.link, 'tiktok.mp4', cap, m)
 }
 handler.help = ['tiktok', 'tt']
 handler.tags = ['downloader']
-handler.command = /^(tiktok2)$/i
+handler.command = /^(tiktok)$/i
 
 export default handler
