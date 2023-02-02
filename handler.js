@@ -51,7 +51,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.exp))
                     user.exp = 0
                 if (!isNumber(user.limit))
-                    user.limit = 100
+                    user.limit = 1000
                 if (!isNumber(user.lastclaim))
                     user.lastclaim = 0
                 if (!isNumber(user.pasangan))
@@ -75,7 +75,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.warn))
                     user.warn = 0
                 if (!isNumber(user.level))
-                    user.level = 0
+                    user.level = 30
                 if (!('role' in user))
                     user.role = 'Beginner'
                 if (!('autolevelup' in user))
@@ -203,11 +203,11 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.premiumTime))
                     user.premiumTime = 0
                 if (!isNumber(user.limitjoin))
-                    user.limitjoin = 0
+                    user.limitjoin = 100
             } else
                 global.db.data.users[m.sender] = {
                     exp: 0,
-                    limit: 100,
+                    limit: 1000,
                     lastclaim: 0,
                     registered: false,
                     name: m.name,
@@ -218,7 +218,7 @@ export async function handler(chatUpdate) {
                     afkReason: '',
                     banned: false,
                     warn: 0,
-                    level: 0,
+                    level: 30,
                     role: 'Beginner',
                     autolevelup: true,
                     money: 0,
@@ -282,7 +282,7 @@ export async function handler(chatUpdate) {
                     
                     premium: false,
                     premiumTime: 0,
-                    limitjoin: 0,
+                    limitjoin: 100,
                 }
             let chat = global.db.data.chats[m.chat]
             if (typeof chat !== 'object')
@@ -293,7 +293,7 @@ export async function handler(chatUpdate) {
                 if (!('welcome' in chat))
                     chat.welcome = true
                 if (!('detect' in chat))
-                    chat.detect = false
+                    chat.detect = true
                 if (!('sWelcome' in chat))
                     chat.sWelcome = ''
                 if (!('sBye' in chat))
@@ -340,7 +340,7 @@ export async function handler(chatUpdate) {
                 global.db.data.chats[m.chat] = {
                     isBanned: false,
                     welcome: true,
-                    detect: false,
+                    detect: true,
                     sWelcome: '',
                     sBye: '',
                     sPromote: '',
