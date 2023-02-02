@@ -2,7 +2,7 @@
 // Abang pilih yg mna tong hilap kasih credits
 // jangan lupa kasih credits
 // join gc https://chat.whatsapp.com/FR1KfE3OTcQCayiabos8Ff
-// owner wa.me/6283863727733
+// owner wa.me/6283849469400
 // NAMA SESSIONS NYAA "session.data.json"
 // SC Ori By Aldi Lesmana
 // Base BhocilGaming
@@ -50,16 +50,16 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NO OWNER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.owner = [
-['6283863727733', 'Amelia-MD', true],
+['6283849469400', 'Amelia-MD', true],
 ]
 global.autoketik = true //status auto mengetik (auto typing)
 global.available = true //status online (online)
 // Other
-global.mods = ['6283864727733']
-global.prems = ['6283863727733']
+global.mods = ['6283849469400']
+global.prems = ['6283849469400']
 global.nomorbot = '6283863727740'
-global.nameown = 'PutraModz'
-global.nomorown = '6283863727733'
+global.nameown = 'ega-ganteng'
+global.nomorown = '6283849469400'
 global.nomorown1 = '6282214729677'
 global.nomorown2 = '6282214729677'
 global.nomorwa = '082214729677'
@@ -67,7 +67,7 @@ global.limitawal = {
 
     premium: "Infinity",
 
-    free: 15
+    free: 1000
 
 }
 
@@ -75,44 +75,44 @@ global.limitawal = {
 
 global.readMore = readMore
 global.gcname = 'Amelia MD'//nama group kalian
-global.author = 'PutraModz' //ganti aja cuyyy
+global.author = 'ega-ganteng' //ganti aja cuyyy
 global.namebot = '​Amelia-Md' //nama bot luh
 global.wm = '© Amelia-Md' //ganti aja
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg' //bebas
 global.wm = 'Amelia-Md ' //wm nyaa kocak
 global.watermark = wm //bebas
-global.wm2 = 'PutraModz' //ganti ajaa 
+global.wm2 = 'ega-ganteng' //ganti ajaa 
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`//ga usah dehhh 
 global.bottime = `T I M E : ${wktuwib}` //ini juga ga usah 
-global.titlebot = `Amelia-Md | PutraModz` //ganti aja
+global.titlebot = `Amelia-Md | ega-ganteng` //ganti aja
 global.stickpack = 'Amelia-Modz' //ganti 
 global.stickauth = `© Amelia-Md` //gantii 
 global.week = `${week} ${date}` //Gak usah
 global.wibb = `${wktuwib}` // Gak usah 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.nameown1= 'Amelia Putri septiany' //ganti 
-global.nameown2 = 'PutraModz' //ganti 
+global.nameown2 = 'ega-ganteng' //ganti 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'Tunggu Sebentar Kak...'
-global.lynk = 'https://chat.whatsapp.com/FR1KfE3OTcQCayiabos8Ff'//ganti jadi link gc luh
+global.lynk = 'https://chat.whatsapp.com/JEQc02Qcozq04TwDxswbRQ'//ganti jadi link gc luh
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.sig = 'https://instagram.com/l4c1f2r' //ganti jadi ig mu
-global.sgh = 'https://github.com/Lucife-Putra' //github
-global.sgc = 'https://chat.whatsapp.com/FR1KfE3OTcQCayiabos8Ff' //group whatsapp
-global.gcwangsaf = 'https://chat.whatsapp.com/FR1KfE3OTcQCayiabos8Ff' //Group wa juga 
+global.sgh = 'https://github.com/Doramisi1' //github
+global.sgc = 'https://chat.whatsapp.com/JEQc02Qcozq04TwDxswbRQ' //group whatsapp
+global.gcwangsaf = 'https://chat.whatsapp.com/JEQc02Qcozq04TwDxswbRQ' //Group wa juga 
 global.sdc = '-' //discord klo ga punya ga usah biarin aja
 global.snh = 'https://youtube.com/@Putra_Modz_' //yt klo punya 
-global.wame = 'https://api.whatsapp.com/send?phone=+6283863727733' //Tautan Wa Kalian
+global.wame = 'https://api.whatsapp.com/send?phone=+6283849469400' //Tautan Wa Kalian
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ DONASI ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.pdana = '083864727401' //Isi aja klo punya 
+global.pdana = '6283849469400' //Isi aja klo punya 
 global.povo = '-' //Isi Aja klo punya 
-global.pgopay = '082214729677' //Isi aja klo punya 
+global.pgopay = '6283849469400' //Isi aja klo punya 
 global.plinkaja = '-' //link aja,isi Klo punya
-global.ppulsa = '083863727401' //Isi aja klo punya 
-global.ppulsa2 = '082214729677' //Isi aja klo punya 
+global.ppulsa = '6283849469400' //Isi aja klo punya 
+global.ppulsa2 = '6283849469400' //Isi aja klo punya 
 global.psaweria = 'https://telegra.ph/file/98338a583efeb3d34a70b.jpg' //Ganti aja ini Link gambar QR
 
 //bebas cuyyy yg atas mahh 
@@ -557,8 +557,8 @@ global.hoppai = ['https://telegra.ph/file/f34d76df4a2065af1a5ba.jpg','https://te
 global.dtu = '?????????'
 global.urlnya = "https://www.instagram.com/l4c1f2r"
 global.dtc = '???? ?????'
-global.phn = '0822 1472-9677'
-global.ultahowner = 'Febuari 02 2023' //ultah luh 😭
+global.phn = '0838-4946-9400'
+global.ultahowner = 'Febuari 18 2023' //ultah luh 😭
 
 
 //?? 肓??????帕 ? JNGN DI UBAH ? 帕??????肓 ??
