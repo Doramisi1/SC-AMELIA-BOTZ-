@@ -5,19 +5,15 @@ let handler = async (m, { conn, usedPrefix, command, args }) => {
    let rest = await fetch(`https://malesin.xyz/tiktok?url=${args[0]}`)
    let res = await rest.json()
    let { title, author, video, audio, videoWM } = res
-   let kon = `${title}
-
-Author : ${author}
-
-Powered by © #${wm}`
+   let kon = `☰ ━━━ ❨ TikTok No WaterMark ❩ ━━┄┈ ☰
+   
+${sym} *Author :* ${author}
+${sym} *Title :* ${title}`
 m.reply(wait)
-await conn.sendFile(m.chat, video, 'tt.mp4', kon, m)
+await conn.sendButtonVid(m.chat, video, kon, global.author, 'Watermark', usedPrefix + 'get ' + videoWM, m)
 }
 handler.help = ['tiktoknowm', 'ttnowm']
 handler.tags = ['downloader']
 handler.command = /^(ttnowm|tiktoknowm)$/i
-
-handler.premium = false
-handler.limit = true 
 
 export default handler
